@@ -1,52 +1,63 @@
 # Copilot Software Architect
 
+**⚠ Warning: Your data will be sent to the Visual Studio Code `GitHub Copilot Chat` enabled model provider's remote service for processing. Ensure that no confidential or sensitive information is shared. Review your organization's data policies before use.**
+
 ## Overview
 
-The `Copilot Software Architect` extension provides a chat participant for software professionals, specifically designed to assist with everyday tasks. Create your own architect with specific roles and assign projects which the architect can work on and complete for you. A simple example is to convert a BRD to HLD. Create an architect with specific roles, skills, etc., and assign projects.
+The `Copilot Software Architect` extension is designed to be your AI assistant, helping you manage and execute various software development tasks. You can create your own virtual persona with specific roles and skills, and assign them tasks to work on your projects. Whether you need to convert documents, generate high-level designs, or configure custom roles for your projects, this extension has you covered.
 
-## Features
+## Key Features
 
-- **DOCX to Markdown Conversion**: Convert Word documents to Markdown format.
-- **High-Level Design (HLD) Creation**: Generate HLD documents based on provided context and templates.
-- **Custom Architect Roles and Skills**: Complete the assigned work with your own architect configured with different roles and skills.
+- **AI-Powered Input Understanding**: Leverage AI to understand different input sources, including `.docx` files, and produce detailed outputs defined in templates.
+- **Template-Based Output**: Automatically create any type of documents and diagrams from your project input specifications. Connect all sources and understand the instructions to produce outputs as defined in your templates.
+- **Custom Role Configuration**: Define and configure custom roles for your virtual personas to match your project needs.
+- **Task Automation**: Automate repetitive tasks and streamline your development process with AI-driven task management.
+- **Seamless Integration**: Integrate seamlessly with your existing development tools and workflows for a smooth experience.
 
-## Commands
 
-- `setup`: Set up the workspace to work with the architect.
-- `refreshConfig`: Refresh the workspace architect config.
-- `listProjects`: List all configured active projects.
-- `updateContext`: Update the chat context with selected files.
-- `viewContext`: View the current chat context.
-- `clearContext`: Clear the chat context.
-- `help`: Display help for available commands.
-- `docx2md`: Convert DOCX files to Markdown.
+## Additonal Features
+- **DOCX to Markdown Conversion**: LLM works well with simple text & simple formatting. Markdown is one of the best format for LLM. Easily convert Word documents into Markdown format to work with LLM's.
 
-## Installation
+## Prerequisites
 
-### From the Marketplace
+- GitHub Copilot extension installed in Visual Studio Code.
+- An active GitHub Copilot subscription.
+- Basic knowledge of Visual Studio Code and GitHub Copilot functionalities.
+- Internet connection for accessing the remote service.
+- Review of your organization's data policies regarding the use of AI tools.
 
-1. Open Visual Studio Code.
-2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
-3. Search for `Copilot Software Architect`.
-4. Click the `Install` button.
+## Documentation
 
-## Usage
+For detailed documentation, feature explanations, and best practices, visit:
+[Copilot Software Architect Documentation](https://www.docs.hihelloai.com/)
 
-1. Open the GitHub Copilot chat.
-2. Type `@architect /setup` to set up your workspace to work with the participant.
-3. Read the generated file `architectConfig.yaml` for more details.
-4. Once you configure your `architectConfig.yaml`, use `@architect /listProjects` to list all configured active projects.
-5. Click the follow-up link.
-6. Wait until it produces the file.
-7. If you need any customization on the output, modify the output template MD file.
-8. Type `@architect /help` in the chat space to list available commands.
-9. Pick any command that suits your work and complete it.
-10. Follow the prompts to complete the task.
+## Security
+
+The `Copilot Software Architect` extension prioritizes user privacy and data security. However, user inputs and interactions with the extension will be processed by the Copilot-enabled model provider's remote service. This means your data may be temporarily stored and analyzed to generate responses. The extension does not share user data beyond this process and operates within the security confines of GitHub Copilot inside Visual Studio Code. Users are advised to:
+
+- Avoid sharing sensitive, confidential, or proprietary data.
+- Review their organization's data protection policies before using the extension.
+- Understand that responses are generated based on AI models and should be validated before implementation.
+
+Let's get started and see how `Copilot Software Architect` can streamline your development workflow!
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Proprietary License See the [LICENSE](LICENSE) file for details. Free to use this software.
+
+## Feedback
+
+This extension is in early development. If you encounter any issues or have suggestions, please raise an issue or start a discussion:
+
+- [Report an Issue](https://github.com/ilayanambi-ponramu/vscode-copilot-architect-participant/issues)
+- [Start a Discussion](https://github.com/ilayanambi-ponramu/vscode-copilot-architect-participant/discussions)
 
 ## Change Log
 
 All notable changes to this project will be documented in the [CHANGELOG](CHANGELOG.md) file.
+
+## Download
+
+The extension is available on VSCode Marketplace -
+
+- [Download VS Code extension](https://marketplace.visualstudio.com/items?itemName=Ilayanambi-Ponramu.vscode-copilot-architect-participant)
