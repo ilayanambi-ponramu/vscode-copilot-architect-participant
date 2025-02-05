@@ -6,6 +6,12 @@
 
 The `Copilot Software Architect` extension is designed to be your AI assistant, helping you manage and execute various software development tasks. You can create your own virtual persona with specific roles and skills, and assign them tasks to work on your projects. Whether you need to convert documents, generate high-level designs, or configure custom roles for your projects, this extension has you covered.
 
+#### Generate docs
+![Animation](gifs/hld.gif)
+
+#### Compare & Pull
+![Animation](gifs/compareSave.png)
+
 ## Key Features
 
 - **AI-Powered Input Understanding**: Leverage AI to understand different input sources, including `.docx` files, and produce detailed outputs defined in templates.
